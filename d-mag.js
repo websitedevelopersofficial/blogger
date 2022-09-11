@@ -40,11 +40,11 @@ $(document).ready(function(){
    
 });
 
-$("<a href='https://www.youtube.com/c/WebsiteDevelopers' id='developers'>Website Developers</a>").insertAfter("#copyright-area");
+$("<a href='https://www.youtube.com/c/WebsiteDevelopers' id='developers'>Website Developers</a>").insertAfter(".p-3");
 $("<hr class='w-100 clearfix d-md-none'/>").insertAfter("#Text3, #LinkList11, #LinkList10");
   
       $('#TextList1').addClass("col-md-4 col-lg-3 col-xl-3 mx-auto mt-3");
   $('#LinkList10').addClass("col-md-3 col-lg-2 col-xl-2 mx-auto mt-3");
   $('#LinkList11').addClass("col-md-2 col-lg-2 col-xl-2 mx-auto mt-3");
     $('#Text3').addClass("col-md-3 col-lg-3 col-xl-3 mx-auto mt-3");
-$("<hr class='w-100 clearfix d-md-none'/>").insertAfter("#copyright-area");
+$("<hr class='w-100 clearfix d-md-none'/>").insertAfter(".p-3);
