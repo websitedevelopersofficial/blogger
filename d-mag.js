@@ -47,4 +47,4 @@ $("<hr class='w-100 clearfix d-md-none'/>").insertAfter("#Text3, #LinkList11, #L
   $('#LinkList11').addClass("col-md-2 col-lg-2 col-xl-2 mx-auto mt-3");
     $('#Text3').addClass("col-md-3 col-lg-3 col-xl-3 mx-auto mt-3");
 $("<hr class='w-100 clearfix d-md-none'/>").insertAfter("#copyright-area");
-$("Developed By <a href='https://www.youtube.com/c/WebsiteDevelopers' id='developers'> Website Developers</a>").insertAfter("#copyright-area");
+$("Developed By <a href='https://www.youtube.com/c/WebsiteDevelopers' id='developers'>Website Developers</a>").insertAfter("#copyright-area");
