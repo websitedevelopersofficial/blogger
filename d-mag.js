@@ -40,7 +40,7 @@ $(document).ready(function(){
    
 });
 
-$("<a href='https://www.youtube.com/c/WebsiteDevelopers' id='developers'>Website Developers</a>").insertAfter("footer");
+$("<a href='https://www.youtube.com/c/WebsiteDevelopers' id='developers'>Website Developers</a>").insertAfter(".p-3");
 $("<hr class='w-100 clearfix d-md-none'/>").insertAfter("#Text3, #LinkList11, #LinkList10");
   
       $('#TextList1').addClass("col-md-4 col-lg-3 col-xl-3 mx-auto mt-3");
