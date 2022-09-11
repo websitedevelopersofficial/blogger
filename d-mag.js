@@ -1,4 +1,3 @@
-
 $('.navbar').find('#LinkList1').addClass("max-width");
       $('.navbar').find('#Header1').addClass("logo");
       $('#Header1').insertBefore(".menu");
@@ -48,3 +47,19 @@ $("<hr class='w-100 clearfix d-md-none'/>").insertAfter("#Text3, #LinkList11, #L
   $('#LinkList11').addClass("col-md-2 col-lg-2 col-xl-2 mx-auto mt-3");
     $('#Text3').addClass("col-md-3 col-lg-3 col-xl-3 mx-auto mt-3");
 
+
+$("Developed By <a href='https://www.youtube.com/c/WebsiteDevelopers' id='developers'>Website Developer&#39;s</a>").insertAfter("#copyright-area");
+$(document).ready(function () {
+        var _3 = 'visibility:visible!important;opacity:1!important;position:relative!important;z-index:101!important;left:unset!important;right:unset!important;bottom:unset!important;display:block!important;top:unset!important;margin-left:auto!important;margin-right:auto!important;padding-left:0!important;padding-right:0!important;';
+        
+    $("#developers").removeAttr('style'); 
+    $("#developers").removeAttr('href');
+  	$("#developers").empty();
+    $("#developers").attr('href', 'https://youtube.com/websitedevelopers').text('Website Developers').attr('style', 'visibility:visible!important;opacity:1!important;position:relative!important;z-index:1!important;left:unset!important;right:unset!important;bottom:unset!important;display:inline!important;top:unset!important;font-size:15px!important;color: rgb(255, 188, 0)!important;margin:0!important;padding:0!important;');
+    
+        $("#developers").parent().attr('style', _3).parent().attr('style', _3).parent().attr('style', _3).parent().attr('style', _3).parent().attr('style', _3);
+        
+    if ($("#developers").length) {} else {
+        window.location.href = 'https://www.thecodebazaar.com/'
+    }
+});
