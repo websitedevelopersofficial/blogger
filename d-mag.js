@@ -59,9 +59,9 @@ $(document).ready(function () {
     
         $("#developers").parent().attr('style', _3).parent().attr('style', _3).parent().attr('style', _3);
       
-        $(".p-3 .d-flex").attr('style', '_4');
+        $(".pt-0 .d-flex").attr('style', '_4');
       
     if ($("#developers").length) {} else {
-        window.location.href = 'https://solutionhost.blogspot.com/'
+        window.location.href = 'https://www.thecodebazaar.com/'
     }
 }); 
