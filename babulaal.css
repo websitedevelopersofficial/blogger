@@ -22,6 +22,9 @@ body {
 background: #fafafa;
 }
 
+body>p{
+display:none;	
+}
 .section{
 margin:0;
 padding:0;
@@ -293,8 +296,8 @@ list-style:none;
 
 
 #footer-labels{
-padding: 1em;
-    margin: 1em 0;
+    padding: 0 1em;
+    margin: 0em 0 1em;
 }
 
 #footer-labels .widget{
@@ -338,7 +341,7 @@ border-radius: 0 0 8px 8px;
 
 
 .contain{
-padding:0.51em;
+padding:0.51em 0;
 }
 
 
