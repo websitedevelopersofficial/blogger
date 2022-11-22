@@ -349,9 +349,9 @@ padding:0.51em 0;
 padding:0 1em;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
 .xop-section {
- margin:0 auto;
+ margin:0 auto 1em;
  padding:0;
  background-color: #efefefc9;
 }
@@ -480,6 +480,7 @@ img {vertical-align: middle;}
 
 .main-post{
 padding:1em;
+	font-family: 'Mukta', sans-serif;
 }
 
 .post-header{
@@ -499,3 +500,35 @@ padding:1em;
 	}
 	
 }
+
+.share-it{
+                margin:2em auto;
+                text-align:center;
+                }
+                
+                .share-it h3{
+                color: var(--post-txt);
+                font-weight:600;
+                }
+                
+                .share-it ul{
+                    list-style: none;
+    				display: flex;
+    				margin: 0;
+    				padding: 0;
+    				justify-content: center;
+    				align-items: center;
+                }
+                
+                .share-it .fa {
+    				color: #fff;
+    				font-size: 21px;
+    				background: #2e2e36;
+    				padding: 10px;
+    				border-radius: 50%;
+    				text-align: center;
+    				width: 41px;
+                	margin:auto 5px;
+					font-family: FontAwesome;
+					font-weight: 400;
+				}
