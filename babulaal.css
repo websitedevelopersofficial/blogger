@@ -494,4 +494,8 @@ padding:1em;
 .post-con .popular-post-txt h3 {
 	line-height: 1.4!important;
 }
+	.post-header{
+	font-size: 15px;
+	}
+	
 }
