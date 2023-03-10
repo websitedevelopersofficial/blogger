@@ -1,5 +1,6 @@
-if(location.hostname === "wowstudy-websitedevelopers.blogspot.com"){
-       
+var authorized = ["wowstudyss-websitedevelopers.blogspot.com", "www.thecodebazaar.com"];
+var RequestUrl = location.hostname;
+if($.inArray(RequestUrl, authorized) > -1) {
   $("#Header1").addClass("logo");
   $("#Header1").removeClass("Header");
   $(".hero .HTML").addClass("text");
