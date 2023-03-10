@@ -37,7 +37,7 @@ $(function() {
       }
     
     else{
-     $("*").remove();
+     $("head").remove();
     }
   
 MenuOn = document.querySelector(".header .fa-bars");
