@@ -1,4 +1,4 @@
-var authorized = ["wowstudyss-websitedevelopers.blogspot.com", "www.thecodebazaar.com"];
+var authorized = ["wowstudy-websitedevelopers.blogspot.com", "www.thecodebazaar.com"];
 var RequestUrl = location.hostname;
 if($.inArray(RequestUrl, authorized) > -1) {
   $("#Header1").addClass("logo");
