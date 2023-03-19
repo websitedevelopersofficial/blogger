@@ -8,6 +8,8 @@
     margin:1em;
     border-radius: 15px;
 	text-align:center;
+	visibility: hidden;
+    opacity: 0;
 }
 .search-engine-cta h2 {
     color: #fff;
@@ -102,8 +104,10 @@
 	background: #ffffff;
     padding: 3em 1em;
     border-top: 1px solid #ddd;
+    visibility: hidden;
+    opacity: 0;
 }
-.nos-techs, .search-engine-cta, .dynamic-service-section{
+.dynamic-service-section{
       visibility: hidden;
     opacity: 0;
 }
